@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1493717915594111988}
   - component: {fileID: 6189927423993498087}
   - component: {fileID: 1038227092865342504}
+  - component: {fileID: 6776370570738502127}
+  - component: {fileID: 6868613677072368529}
   m_Layer: 0
   m_Name: Bee
   m_TagString: Untagged
@@ -74,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b44ad350aab99416da042ed03d420869, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37f43701bf73ecc4b855308db07d4d7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,3 +108,69 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6776370570738502127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6360923561773818714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908ecc8e6f3da7b4d9c410d1d725241e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpeed: 2
+  maxSpeed: 8
+  scoreAmount: 3
+  healthAmount: 1
+  scoreType: -1
+  healthType: -1
+  isAnimatorEnabledStart: 0
+  isAnimatorEnableOnTrigger: 1
+  explosion: {fileID: 4570974250924590459, guid: db93d0fa4827d4d42b1f7efa5a20a980, type: 3}
+--- !u!61 &6868613677072368529
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6360923561773818714}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.37, y: 0.39}
+    newSize: {x: 0.37, y: 0.39}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.18151537, y: 0.20521116}
+  m_EdgeRadius: 0
