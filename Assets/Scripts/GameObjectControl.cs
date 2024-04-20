@@ -13,7 +13,7 @@ public class GameObjectControl : MonoBehaviour
     public bool isAnimatorEnabledStart;//初始是否执行动画
     public bool isAnimatorEnableOnTrigger;//触发后是否执行动画
 
-    public GameObject explosion;//爆炸效果预制体
+    public GameObject[] explosions;//爆炸效果预制体列表
 
 
 
@@ -88,12 +88,31 @@ public class GameObjectControl : MonoBehaviour
 
                 //在物体当前位置爆炸
                 //爆炸预制体（粒子系统）的销毁需要在inspector中设置，使用destroy方法会报错
-                Instantiate(explosion,transform.position, Quaternion.identity);
-                
+                GameObject explosionObject = getExplosionObject();//获取随机爆炸效果
+                if (explosionObject != null)
+                {
+                    Instantiate(explosionObject, transform.position, Quaternion.identity);
+
+                }
+
                 Destroy(gameObject);
             }
             
         }
+    }
+
+    /// <summary>
+    /// 获取随机爆炸效果
+    /// </summary>
+    /// <returns></returns>
+    protected GameObject getExplosionObject()
+    {
+        if(explosions != null)
+        {
+            int index = Random.Range(0,explosions.Length);//随机爆炸预制体其中一个
+            return explosions[index];
+        }
+        return null;
     }
 
     /// <summary>

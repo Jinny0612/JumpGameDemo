@@ -128,7 +128,10 @@ MonoBehaviour:
   healthType: 1
   isAnimatorEnabledStart: 0
   isAnimatorEnableOnTrigger: 1
-  explosion: {fileID: 4570974250924590459, guid: db93d0fa4827d4d42b1f7efa5a20a980, type: 3}
+  explosions:
+  - {fileID: 4570974250924590459, guid: db93d0fa4827d4d42b1f7efa5a20a980, type: 3}
+  - {fileID: 4570974250924590459, guid: 3d0d34a233c7e1c408f1af6ffa90efe3, type: 3}
+  - {fileID: 4570974250924590459, guid: bc96a2fa8f2381748b1e912b2e9ea79f, type: 3}
 --- !u!61 &-5987703276490583786
 BoxCollider2D:
   m_ObjectHideFlags: 0
