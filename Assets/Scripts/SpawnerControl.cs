@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// 自动生成下落的游戏物体
+/// </summary>
 public class SpawnerControl : MonoBehaviour
 {
     public Transform[] spawnsPoints; //生成对象的位置

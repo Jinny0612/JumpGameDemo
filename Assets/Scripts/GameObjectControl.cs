@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// 对需要与player进行碰撞触发检测的游戏物体的管理
+/// </summary>
 public class GameObjectControl : MonoBehaviour
 {
     public float minSpeed;//最小移动速度
@@ -15,13 +19,13 @@ public class GameObjectControl : MonoBehaviour
 
     public GameObject[] explosions;//爆炸效果预制体列表
 
-
-
     protected PlayerControl player;//绑定玩家角色
     protected Animator animator;//动画管理
 
     protected float speed;//范围在minSpeed--maxSpeed
     protected bool shouldMoving;//物体是否应该继续移动
+
+    private bool hasTouched;//是否已经被player触碰过，触碰过则不再触发分数和生命值变化效果
 
 
 
@@ -164,10 +168,12 @@ public class GameObjectControl : MonoBehaviour
     /// <param name="healthAmount">生命值变化量</param>
     protected void scoreAndHealthChange(int scoreType, int scoreAmount, int healthType, int healthAmount)
     {
-        if (player != null)
+        //未触碰过，分数和生命值更新
+        if (player != null && !hasTouched)
         {
             player.scoreChange(scoreType, scoreAmount);
             player.healthChange(healthType, healthAmount);
+            hasTouched = true;//已经触碰过，避免分数和生命值重复增减
         }
     }
 
