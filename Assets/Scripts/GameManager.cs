@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class GameManager : MonoBehaviour
 {
-    private AudioSource audio;
+    private new AudioSource audio;
 
     private void Start()
     {

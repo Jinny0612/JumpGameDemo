@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 50248530}
   - component: {fileID: 50248532}
   - component: {fileID: 50248531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 107128208}
   - component: {fileID: 107128210}
   - component: {fileID: 107128209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 161014846}
   - component: {fileID: 161014848}
   - component: {fileID: 161014847}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -644,7 +644,7 @@ GameObject:
   - component: {fileID: 186389796}
   - component: {fileID: 186389798}
   - component: {fileID: 186389797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (16)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -774,7 +774,7 @@ GameObject:
   - component: {fileID: 338337753}
   - component: {fileID: 338337755}
   - component: {fileID: 338337754}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (14)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 440755240}
   - component: {fileID: 440755242}
   - component: {fileID: 440755241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1065,7 +1065,7 @@ GameObject:
   - component: {fileID: 489235296}
   - component: {fileID: 489235298}
   - component: {fileID: 489235297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1486,7 +1486,7 @@ GameObject:
   - component: {fileID: 662549715}
   - component: {fileID: 662549717}
   - component: {fileID: 662549716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (17)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1637,11 +1637,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 838803140}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 222.1, y: 155.3}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0.99999976}
 --- !u!114 &673352291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1691,10 +1691,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 24.55
   m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1706,7 +1706,7 @@ MonoBehaviour:
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
+  m_charWidthMaxAdj: 10
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
@@ -1752,7 +1752,7 @@ GameObject:
   - component: {fileID: 736499419}
   - component: {fileID: 736499421}
   - component: {fileID: 736499420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2004,12 +2004,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 900, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2186,7 +2186,7 @@ GameObject:
   - component: {fileID: 895861059}
   - component: {fileID: 895861061}
   - component: {fileID: 895861060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2316,7 +2316,7 @@ GameObject:
   - component: {fileID: 941294936}
   - component: {fileID: 941294938}
   - component: {fileID: 941294937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2722,7 +2722,7 @@ GameObject:
   - component: {fileID: 1122644106}
   - component: {fileID: 1122644108}
   - component: {fileID: 1122644107}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3044,7 +3044,7 @@ GameObject:
   - component: {fileID: 1203874902}
   - component: {fileID: 1203874904}
   - component: {fileID: 1203874903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3450,7 +3450,7 @@ GameObject:
   - component: {fileID: 1434882566}
   - component: {fileID: 1434882568}
   - component: {fileID: 1434882567}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (19)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3580,7 +3580,7 @@ GameObject:
   - component: {fileID: 1546983999}
   - component: {fileID: 1546984001}
   - component: {fileID: 1546984000}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3710,7 +3710,7 @@ GameObject:
   - component: {fileID: 1580954284}
   - component: {fileID: 1580954286}
   - component: {fileID: 1580954285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (13)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3880,7 +3880,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.1375751
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -4002,7 +4002,7 @@ GameObject:
   - component: {fileID: 1793833216}
   - component: {fileID: 1793833218}
   - component: {fileID: 1793833217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (15)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4163,7 +4163,7 @@ GameObject:
   - component: {fileID: 1928508678}
   - component: {fileID: 1928508680}
   - component: {fileID: 1928508679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4708,7 +4708,7 @@ GameObject:
   - component: {fileID: 2102427136}
   - component: {fileID: 2102427138}
   - component: {fileID: 2102427137}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (18)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4838,7 +4838,7 @@ GameObject:
   - component: {fileID: 2105064465}
   - component: {fileID: 2105064467}
   - component: {fileID: 2105064466}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_18 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4968,7 +4968,7 @@ GameObject:
   - component: {fileID: 2122995960}
   - component: {fileID: 2122995959}
   - component: {fileID: 2122995961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5119,6 +5119,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4315874915987306425, guid: b145d900f49f28443b6352933d6bf424, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315874915987306425, guid: b145d900f49f28443b6352933d6bf424, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -5167,6 +5171,10 @@ PrefabInstance:
       value: 0.25768548
       objectReference: {fileID: 0}
     - target: {fileID: 5654818094226658586, guid: b145d900f49f28443b6352933d6bf424, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 7ff8cb568bf6c9c478d9f5e880d2c1f8, type: 2}
+    - target: {fileID: 5654818094226658586, guid: b145d900f49f28443b6352933d6bf424, type: 3}
       propertyPath: m_Offset.x
       value: -0.0038946718
       objectReference: {fileID: 0}
@@ -5183,6 +5191,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: fe0b1f9aeb45b41b089175aeeabd5d95, type: 3}
     - target: {fileID: 7589617267397407502, guid: b145d900f49f28443b6352933d6bf424, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7589617267397407502, guid: b145d900f49f28443b6352933d6bf424, type: 3}
       propertyPath: losePanel
       value: 
       objectReference: {fileID: 1976595162}
@@ -5193,6 +5205,14 @@ PrefabInstance:
     - target: {fileID: 7589617267397407502, guid: b145d900f49f28443b6352933d6bf424, type: 3}
       propertyPath: extraSpeed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7589617267397407502, guid: b145d900f49f28443b6352933d6bf424, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7589617267397407502, guid: b145d900f49f28443b6352933d6bf424, type: 3}
+      propertyPath: ground.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 7589617267397407502, guid: b145d900f49f28443b6352933d6bf424, type: 3}
       propertyPath: startDashTime

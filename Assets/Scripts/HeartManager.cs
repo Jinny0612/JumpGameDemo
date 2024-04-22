@@ -84,13 +84,18 @@ public class HeartManager : MonoBehaviour
         else 
         {
             //爱心需要减少
-            for(int i = curHeartList.Count - 1; i >= health; i--)
+            if(curHeartList.Count > 0)
             {
-                GameObject curHeart = curHeartList[i];
-                Destroy(curHeart);//删除当前爱心对象
-                curHeartList.RemoveAt(i);//从集合中删除当前爱心对象
-                
+                for (int i = curHeartList.Count - 1; i >= health; i--)
+                {
+                    GameObject curHeart = curHeartList[i];
+                    Destroy(curHeart);//删除当前爱心对象
+                    curHeartList.RemoveAt(i);//从集合中删除当前爱心对象
+
+                }
+
             }
+            
         }
         
     }
