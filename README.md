@@ -3,7 +3,7 @@
 
  已上传至itch.io
 
-https://jinyi-0612.itch.io/rabbit-jump
+https://jinny0612.itch.io/rabbit-jump
 
  预期效果： 
  
